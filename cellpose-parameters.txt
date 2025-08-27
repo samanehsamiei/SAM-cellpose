@@ -6,6 +6,18 @@ they vary from around -6 to +6. The pixels greater than the cellprob_threshold a
 Decrease this threshold if cellpose is not returning as many ROIs as you’d expect. Similarly, increase this threshold if cellpose is returning too ROIs particularly from dim areas.
 
 
+
+### Fisrt run of col II and LTL:
+diameter 43.4
+channels: [red , green]
+flow_threshold: 0.8 
+cellprobe threshold: -1.5
+lower: 1 upper 99
+
+model of training : tissuenet_cp3
+
+
+
 ### Paul's parameters for heart
 
     cellpose:
@@ -19,3 +31,5 @@ Decrease this threshold if cellpose is not returning as many ROIs as you’d exp
     pretrained_model: "../heartbreaker-cyto3-0.2"
     method_kwargs:
       resample: False
+
+
