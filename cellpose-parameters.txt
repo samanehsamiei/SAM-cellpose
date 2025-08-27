@@ -6,7 +6,7 @@ they vary from around -6 to +6. The pixels greater than the cellprob_threshold a
 Decrease this threshold if cellpose is not returning as many ROIs as you’d expect. Similarly, increase this threshold if cellpose is returning too ROIs particularly from dim areas.
 
 
-
+### Paul's parameters for heart
 
     cellpose:
     diameter: 200
