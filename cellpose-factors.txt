@@ -1,0 +1,21 @@
+flow_threshold:
+The flow_threshold parameter is the maximum allowed error of the flows for each mask. The default is flow_threshold=0.4.
+Increase this threshold if cellpose is not returning as many ROIs as you’d expect. Similarly, decrease this threshold if cellpose is returning too many ill-shaped ROIs.
+cellprob_threshold:
+they vary from around -6 to +6. The pixels greater than the cellprob_threshold are used to run dynamics and determine ROIs. The default is cellprob_threshold=0.0.
+Decrease this threshold if cellpose is not returning as many ROIs as you’d expect. Similarly, increase this threshold if cellpose is returning too ROIs particularly from dim areas.
+
+
+
+
+    cellpose:
+    diameter: 200
+    channels: ["Cellbound3", "DAPI"]
+    flow_threshold: 0.95
+    cellprob_threshold: -5.5
+    min_area: 500
+    clip_limit: 0.01
+    gaussian_sigma: 0
+    pretrained_model: "../heartbreaker-cyto3-0.2"
+    method_kwargs:
+      resample: False
