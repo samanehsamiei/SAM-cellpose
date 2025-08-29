@@ -7,7 +7,7 @@ Decrease this threshold if cellpose is not returning as many ROIs as you’d exp
 
 
 
-### Fisrt run of col II and LTL:
+### Fisrt run of col II and LTL: #400
 diameter 43.4
 channels: [red , green]
 flow_threshold: 0.8 
@@ -15,6 +15,17 @@ cellprobe threshold: -1.5
 lower: 1 upper 99
 
 model of training : tissuenet_cp3
+
+### Fisrt run of col II and LTL: #512
+diameter 77.3
+channels: [red , green]
+flow_threshold: 1
+cellprobe threshold: -1
+lower: 1 upper 99
+
+model of training : tissuenet_cp3
+
+
 
 
 
