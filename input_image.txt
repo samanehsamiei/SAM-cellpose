@@ -2,3 +2,8 @@ ROI:
 900 900 
 X: 1522
 Y: 2700
+
+
+
+for the second try:
+a ROI: 
