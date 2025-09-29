@@ -6,7 +6,7 @@ they vary from around -6 to +6. The pixels greater than the cellprob_threshold a
 Decrease this threshold if cellpose is not returning as many ROIs as you’d expect. Similarly, increase this threshold if cellpose is returning too ROIs particularly from dim areas.
 
 
-
+colIII_02
 ###run for training model on the combined channel of the IF image :
 diameter 37.7
 channels: [blue , green]
