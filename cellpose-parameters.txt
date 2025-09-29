@@ -7,6 +7,16 @@ Decrease this threshold if cellpose is not returning as many ROIs as you’d exp
 
 
 
+###run for training model on the combined channel of the IF image :
+diameter 43.4
+channels: [red , green]
+flow_threshold: 0.5 
+cellprobe threshold: -0.6
+lower: 1 upper 99
+
+
+
+
 ### Fisrt run of col II and LTL: #400
 diameter 43.4
 channels: [red , green]
