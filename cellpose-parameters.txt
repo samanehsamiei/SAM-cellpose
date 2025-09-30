@@ -7,7 +7,7 @@ Decrease this threshold if cellpose is not returning as many ROIs as you’d exp
 
 
 
-diameter: 110
+diameter: 70
 channels: [green , green]
 flow_threshold: 0.7  
 cellprobe threshold: -3
