@@ -11,7 +11,7 @@ Decrease this threshold if cellpose is not returning as many ROIs as you’d exp
 diameter: 70 >> should be changed for different patches
 channels: [green , green]
 flow_threshold: 0.7  
-cellprobe threshold: -3
+cellprobe threshold: -3 >> if I decrease it, the model will detect the inner parts of the kidney ( more strong colors)
 lower: 1 upper 99
 
 ..... colIII_02 .....
