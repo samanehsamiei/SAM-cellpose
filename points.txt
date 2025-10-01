@@ -1,0 +1,6 @@
+points for A100 gpu:
+
+I used this for launching :
+
+export QT_QPA_PLATFORM=xcb
+python -m cellpose
