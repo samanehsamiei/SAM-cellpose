@@ -4,3 +4,5 @@ I used this for launching :
 
 export QT_QPA_PLATFORM=xcb
 python -m cellpose
+
+>>>>>>>>>>>>>>>>>>That trick basically forces Qt to use X11 instead of Wayland, which avoids the wl_display issue you saw on the HPC.
