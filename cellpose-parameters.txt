@@ -6,6 +6,16 @@ they vary from around -6 to +6. The pixels greater than the cellprob_threshold a
 Decrease this threshold if cellpose is not returning as many ROIs as you’d expect. Similarly, increase this threshold if cellpose is returning too ROIs particularly from dim areas.
 
 
+
+
+..... ltl_02 .....
+
+diameter: 95.83
+channels: [green , green]
+flow_threshold: 0.6  
+cellprobe threshold: -2
+lower: 1 upper 99
+
 ..... ltl .....
 
 diameter: 70 >> should be changed for different patches
