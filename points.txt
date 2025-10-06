@@ -6,3 +6,24 @@ export QT_QPA_PLATFORM=xcb
 python -m cellpose
 
 >>>>>>>>>>>>>>>>>>That trick basically forces Qt to use X11 instead of Wayland, which avoids the wl_display issue you saw on the HPC.
+
+
+
+
+output:
+
+Type: <class 'dict'>
+Keys: ['outlines', 'colors', 'masks', 'chan_choose', 'filename', 'flows', 'ismanual', 'manual_changes', 'model_path', 'flow_threshold', 'cellprob_threshold', 'normalize_params', 'restore', 'ratio', 'diameter']
+
+masks → Instance segmentation map.
+Each cell/object has a unique integer label (0 = background).
+
+colors → RGB colors assigned to each mask (one per object).
+
+outlines → Binary edges showing object boundaries.
+
+ismanual → Boolean array marking manually edited masks.
+
+filename → The image the segmentation came from.
+
+-----------------------------------------------
